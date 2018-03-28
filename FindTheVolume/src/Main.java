@@ -5,12 +5,10 @@ public class Main {
         //r1.calculateValues();
         r1.displayValues();
         
-        RectangularPrism r2 = new RectangularPrism();
-        r2.getValues();
-        //r2.calculateValues();
-        r2.displayValues();
+        Sphere s1 = new Sphere(5);
+        s1.calculateValues();
+        s1.displayValues();
         
-        r1.displayValues();
     }
     
 }
